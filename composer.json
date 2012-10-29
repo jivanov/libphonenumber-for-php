@@ -8,5 +8,4 @@
     "autoload": {
         "psr-0": { "libphonenumber": "" }
     },
-    "target-dir": "libphonenumber"
 }
