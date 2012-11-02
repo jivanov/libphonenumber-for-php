@@ -8,5 +8,10 @@
     "require": {
         "php": ">=5.2.6"
     },
-    "target-dir": "libphonenumber"
+    "target-dir": "libphonenumber",
+    "autoload": {
+        "psr-0": {
+            "libphonenumber": ""
+        }
+    }
 }
