@@ -1144,7 +1144,7 @@ class PhoneNumberUtil {
 		if ($normalizedNationalNumber[0] == '0') {
 			$phoneNumber->setItalianLeadingZero(true);
 		}
-		$phoneNumber->setNationalNumber((float)$normalizedNationalNumber);
+		$phoneNumber->setNationalNumber($normalizedNationalNumber);
 	}
 
 
